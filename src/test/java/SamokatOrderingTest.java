@@ -5,7 +5,7 @@ import ru.yandex.praktikum.RentPage;
 
 import static org.junit.Assert.assertTrue;
 
-public class SamokatOrderingTest extends CommonBaseTest {
+public class  SamokatOrderingTest extends CommonBaseTest {
 
     /** Тест заказа через кнопку в хэдере*/
     @Test

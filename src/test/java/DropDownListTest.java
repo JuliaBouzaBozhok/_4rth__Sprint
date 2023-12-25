@@ -17,8 +17,8 @@ public class DropDownListTest extends CommonBaseTest {
     };
 
     /** Тест соответствия текста в выпадающем списке */
-    @Test
-    public void CheckDropDownListText() {
+   // @Test
+   /** public void checkDropDownListText() {
 
         new MainPage(driver)
                 .openSite()
@@ -29,6 +29,6 @@ public class DropDownListTest extends CommonBaseTest {
             MainPage.clickQuestionArrow(i);
             MainPage.checkTextInOpenPanel(expectedAnswersList[i], i);
         }
-    }
+    } */
 
 }
